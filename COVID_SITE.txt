@@ -1,0 +1,136 @@
+COVID SITE:-
+===========
+
+
+.bg-first-card{width:100vw;
+                background-color:white;
+                background-size:cover;
+                padding:10px;
+}
+.bg-first-card-head{
+    font-size:25px;
+    margin:5px;
+}
+.bg-second-card{background-color:lightblue;
+    border-radius:10px;
+    padding:5px;
+    margin:5px;
+}
+.bg-second-card-img{margin:10px;
+                    width:70px;
+                    height:70px;
+}
+.bg-third-card-img1{background-color:green;
+                
+}
+.bg-third-card-img2{background-color:#cc0c86;
+                
+}
+.bg-third-card-img3{background-color:#8015d1;
+              
+}
+.bg-third-card-img{ border-radius:10px;
+                padding:5px;
+                margin:10px;
+                color:white;
+}
+.bg-third-card{padding:10px;}
+.bg-fourth-card{background-color:#eddab2;
+                border-radius:10px;
+                margin:10px;
+                padding:10px;
+}
+
+
+
+
+<!DOCTYPE html>
+<html>
+  <head> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <style>
+.bg-first-card{width:100vw;
+                background-color:white;
+                background-size:cover;
+                padding:10px;
+}
+.bg-first-card-head{
+    font-size:25px;
+    margin:5px;
+}
+.bg-second-card{background-color:lightblue;
+    border-radius:10px;
+    padding:5px;
+    margin:5px;
+}
+.bg-second-card-img{margin:10px;
+                    width:70px;
+                    height:70px;
+}
+.bg-third-card-img1{background-color:green;
+                
+}
+.bg-third-card-img2{background-color:#cc0c86;
+                
+}
+.bg-third-card-img3{background-color:#8015d1;
+              
+}
+.bg-third-card-img{ border-radius:10px;
+                padding:5px;
+                margin:10px;
+                color:white;
+}
+.bg-third-card{padding:10px;}
+.bg-fourth-card{background-color:#eddab2;
+                border-radius:10px;
+                margin:10px;
+                padding:10px;
+}
+
+</style>
+</head>
+  <body>
+   <div class='d-flex flex-row bg-first-card'>
+        <div>
+       <h2 class='bg-first-card-head'>All you need to know about COVID-19</h2>
+       <BUTTON class='btn btn-primary'>Know more</BUTTON>
+       </div>
+       <img src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/medicalcare-img.png'>
+   </div>
+   <div class='d-flex flex-row bg-second-card'>
+       <img class='bg-second-card-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/coronavirus-img.png'>
+       <div class='bg-second-card-desc'>
+           <h2 class='bg-first-card-head'>COVID-19</h2>
+           <P>if you think you have been exposed to novel coronavirus(COVID-19)...more</P>
+       </div>
+   </div>
+   <h2 class='bg-first-card-head'>Symptoms</h2>
+   <div class='d-flex flex-row bg-third-card'>
+       <div class='bg-third-card-img1 bg-third-card-img'>
+      <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/cough-img.png">
+      <p>Dry Cough</p>
+       </div>
+       <div class='bg-third-card-img2 bg-third-card-img'>
+       <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/fever-img.png">
+       <p>High Fever</p>
+      </div>
+       <div class='bg-third-card-img3 bg-third-card-img'>
+      <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/fever-img.png">
+      <p>Headache</p>
+      </div>
+   </div>
+   <h2 class='bg-first-card-head'>Videos</h2>
+   <div class='d-flex flex-row bg-fourth-card'>
+       <img class='bg-second-card-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/doctor-img.png'>
+       <div>
+           <h2>To prevent the spread of...</h2>
+           <p>if you think you have been exposed to novel corona virus(COVID-19)</p>
+           <BUTTON class='btn btn-primary'>Watch Video</BUTTON>
+       </div>
+   </div>
+  </body>
+</html>

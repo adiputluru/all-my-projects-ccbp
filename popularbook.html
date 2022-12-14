@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<style>
+    .bg-container{background-color:black;
+                width:100vw;
+                height:100vh;
+                padding:15px;
+                background-size:cover;
+               
+}
+h1{color:white;
+}
+
+.head{color:white;
+padding:5px;
+}
+
+.card1{background-color:#d3f2f2;
+        border-radius:10px;
+        border-width:none;
+      
+}
+.card1-img{width:200px;
+            height:200px;
+}
+.card2-img{width:150px;
+            height:150px;
+}
+.card-text{padding:15px;
+            font-weight:bold;
+}
+.card2{background-color:black;
+        border-radius:10px;
+        border-width:none;
+        color:white;
+        margin:15px;
+}
+.align{text-align:center;
+}
+</style>
+</head>
+  <body>
+      <div id='section1'>
+      <div class='bg-container'>
+          <h1>Popular Book</h1>
+          <div class='d-flex flex-row card1'>
+              <img  class='card1-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png'>
+              <div class='card-text'>
+                  <h4>Wings of Fire</h4>
+                  <p>An Autobiography of Abdul Kalam</p>
+                  <p> by Arun Tiwari</p>
+                  <button class='btn btn-primary' onclick="display('section2')">Read Now</button>
+              </div>
+          </div>
+          <h3 class='head'>Recommended Books</h3>
+          
+          <div class='d-flex flex-column '>
+              <div class='d-flex flex-row card2'>
+                  <img class='card2-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png'>
+                  <div class='card-text head'>
+                      <h4 class='head'>The 3 mistakes of my life</h4>
+                      <p>Indian author</p>
+                      <p>  by chetan Bhagat</p>
+                      <button class='btn btn-primary' onclick="display('section3')">Read Now</button>
+                  </div>
+              </div>
+              
+              <div class='d-flex flex-row card2'>
+                  <img class='card2-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png'>
+                  <div class='card-text'>
+                      <h4>Harry Potter</h4>
+                      <p>and the Sorcere's Srone</p>
+                      <p>  by J.K.Rowling</p>
+                      <button class='btn btn-primary' onclick="display('section4')">Read Now</button>
+                  </div>
+              </div>
+          
+          </div>
+      </div>
+    </div> 
+    
+    
+     <div  id='section2'>
+    <div class='bg-container'>
+          <div  class='d-flex flex-column align-items-center'>
+              <img  class='card1-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png'>
+              <div class='head align'>
+                  <h2>Wings of Fire</h2>
+                  <p>by Aryn Tiwari</p>
+              </div>
+         </div>
+         <div class='head'>
+             <p>
+                 The Wings of Fire is an autobiography of former Indian President APJ Abdul Kalam. 
+                 The book covers his life before he became the President of India and commanded the 
+                 armed forces. Renowned scientist and former Indian President APJ Abdul Kalam from 2002
+                 to 2007 is well known across India and abroad as well.
+             </p>
+             <div style='text-align:CENTER;'>
+             <button class='btn btn-warning' onclick="display('section1')">Back</button>
+             <button class='btn btn-primary'>Buy Now</button>
+             </div>
+         </div>
+    </div>
+    </div> 
+   
+   
+   <div id='section3'>
+   <div class='bg-container'>
+          <div  class='d-flex flex-column align-items-center'>
+              <img  class='card1-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png'>
+              <div class='head align'>
+                 <h4 class='head'>The 3 mistakes of my life</h4>
+                  <p>  by chetan Bhagat</p>
+              </div>
+        </div>
+        <div class='head'>
+            <p>
+                The 3 Mistakes of My Life is the third novel written by Chetan Bhagat.
+                The book was published in May 2008 and had an initial print-run of 420,000. 
+                The novel follows the story of three friends and is based in the city of 
+                Ahmedabad in western India. This is the third best seller novel by Chetan Bhagat.
+            </p>
+           <div style='text-align:CENTER;'>
+             <button class='btn btn-warning' onclick="display('section1')">Back</button>
+             <button class='btn btn-primary'>Buy Now</button>
+             </div>
+        </div>
+    </div>
+</div>
+    
+    
+    
+    <div id='section4'>
+         <div class='bg-container'>
+        <div class='d-flex flex-column align-items-center'>
+              <img class='card2-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png'>
+              <div class='head card-text align'>
+                  <h4>Harry Potter</h4>
+                 <p>  by J.K.Rowling</p>
+             </div>
+             <div class='head'>
+                 <p>
+                     Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling.
+                     The novels chronicle the lives of a young wizard, Harry Potter,
+                     and his friends Hermione Granger and Ron Weasley, 
+                     all of whom are students at Hogwarts School of Witchcraft and Wizardry.
+                 </p>
+                <div style='text-align:CENTER;'>
+                 <button class='btn btn-warning' onclick="display('section1')">Back</button>
+                 <button class='btn btn-primary'>Buy Now</button>
+                 </div>
+             </div>
+            
+         </div>
+     </div>
+    </div>
+    
+   <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>    
+  </body>
+</html>

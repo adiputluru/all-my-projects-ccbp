@@ -1,0 +1,407 @@
+VR Logo: https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-logo-img.png
+
+Background Image: https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<style>
+.nav-img{height:50px;
+        width:60px;
+}
+.nav-txt{font-weight:bold;
+        font-family:"roboto";
+}
+.bg-container{background-image:url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-banner-bg.png');
+           height:100vh;
+            width:90vw;
+            background-size:cover;
+            margin-left:20px;
+}
+.card-txt{color:white;}
+</style> 
+
+</head>
+  <body>
+      <div class='container'>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#"><img class='nav-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-logo-img.png'></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav nav-txt ml-auto">
+              <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="#">Products</a>
+              <a class="nav-item nav-link" href="#">Recent Blogs</a>
+              <a class="nav-item nav-link" href="#">Delivery & Payment</a>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class='bg-container card-txt d-flex flex-column justify-content-center align-items-center'>
+          <h2 class='text-center'> The Revolution in Virtual Reality</h2>
+          <button class='btn btn-dark'>View More</button>
+      </div>
+  </body>
+</html>
+
+
+
+feature section:
+===============
+
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/easy-connect-img.png
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-capability-img.png
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/video-games-img.png
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/interaction-img.png
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/easy-play-img.png
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/experience-img.png
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ <style>
+     .card-img{width:70px;
+            height:60px;
+}
+ </style>
+ </head>
+  <body>
+      <h2 class='m-2 p-2'>Features</h2>
+      <div class='container'>
+          <div class='row'>
+            <div class='d-flex flex-column align-items-center text-center p-2 col-12 col-md-6 col-lg-4'>
+                <img class='mb-2 card-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/easy-connect-img.png'>
+                <h4>Easy to connect</h4>
+                <p>Instead of viewing a screen in frint of them, users are immersed and able ro interact with 3D worlds.</p>
+            </div>
+            
+            <div class='d-flex flex-column align-items-center text-center p-2 col-12 col-md-6 col-lg-4'>
+                <img class='mb-2 card-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-capability-img.png'>
+                <h4>VR Capability</h4>
+                <p>Virtua; reality (VR) can create an environment similar to or completely different from the real world.</p>
+            </div>
+            
+            <div class='d-flex flex-column align-items-center text-center p-2 col-12 col-md-6 col-lg-4'>
+                <img class='mb-2 card-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/video-games-img.png'>
+                <h4>Video games</h4>
+            <p>Ability to recognize hand motion,evolving inteactions and gameplay in VR</p>
+            </div>
+            
+            <div class='d-flex flex-column align-items-center text-center p-2 col-12 col-md-6 col-lg-4'>
+                <img class='mb-2 card-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/interaction-img.png'>
+                <h4>Interaction</h4>
+                <p>Interaction refers to the <b> natural interaction </b> between the user and the virtual scene.</p>
+            </div>
+            
+            <div class='d-flex flex-column align-items-center text-center p-2 col-12 col-md-6 col-lg-4'>
+                <img class='mb-2 card-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/easy-play-img.png'>
+                <h4>Easy to play</h4>
+                <p>In 360-degree video, the locations of viewers are fixed, voewers are limited to the angles captured by the cameras.</p>
+            </div>
+            
+            <div class='d-flex flex-column align-items-center text-center p-2 col-12 col-md-6 col-lg-4'>
+                <img class='mb-2 card-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/experience-img.png'>
+                <h4>Awesome Experience</h4>
+                <p>Virtual reality(VR) is a simutated experience that can be simlar to or completly different from the real world</p>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
+
+
+website kit section:
+===================
+
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-kit-1-img.png
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-kit-2-img.png
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-kit-3-img.png
+
+<!DOCTYPE html>
+<html>
+  <head>
+      
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ <style>
+     .card1-img{width:150px;
+            height:150px;
+}
+ </style>
+ </head>
+  <body>
+      <h3 class='m-3 p-3'>Included VR Kit</h3>
+      <div class='container'>
+          <div class='row'>
+         <div class='d-flex flex-column align-items-center  col-12  col-lg-4 col-md-6'>
+             <img  class='card1-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-kit-1-img.png'>
+             <p>Two Touch Controllers</p>
+         </div>
+         
+         <div class='d-flex flex-column align-items-center  col-12 col-lg-4 col-md-6'>
+             <img  class='card1-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-kit-2-img.png'>
+             <p>VR Headset</p>
+         </div>
+         
+                  <div class='d-flex flex-column align-items-center col-12  col-lg-4 col-md-12'>
+             <img  class='card1-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-kit-3-img.png'>
+             <p>Charging Cable</p>
+         </div>
+      </div>
+    </div>
+  </body>
+</html>
+==========================================================
+VR Website Optics and Controllers Section:-
+------------------------------------------
+
+
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-optics-img.png
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-controllers-img.png
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ <style>
+     .vr-img{width:280px;
+}
+.con{background-color:white;
+}
+ </style>
+ </head>
+  <body>
+      <div class='con shadow-lg '>
+    <div class='container'>
+        <div class='row'>
+           
+                <div class='col-12 order-md-2 col-md-6 text-center '>
+                    <img class='vr-img mb-3' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-optics-img.png'>
+                </div>
+                <div class='col-12 order-md-1 col-md-6 p-4'>
+                    <h2>Improved Optics</h2>
+                    <p>A virtual reality headset is a head-miunted device that provides virtual reality for the wearer</p>
+                    <button class='btn btn-dark'>Read More</button>
+                </div>
+           
+        </div>
+        
+    </div>
+    
+    <div class='container'>
+        <div class='row'>
+            <div class=' col-12 col-md-6 text-center'>
+                <img  class='vr-img mb-3' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-controllers-img.png'>
+            </div>
+            <div class='col-12 col-md-6 pt-4'>
+                <h2>Two Touch Controllers</h2>
+                <p>Your Oculus Touch controllers are a pair of tracked controllers that give you a hand.</p>
+                <button class='btn btn-dark pb-2'>Read More</button>
+            </div>
+            
+       
+        </div>
+    </div>
+  </div>
+  </body>
+</html>
+
+=============================================================
+VR Website Contact Us Section:-
+--------------------------------
+
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-set-img.png
+
+<!DOCTYPE html>
+<html>
+  <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ <style>
+   .c-img{width:200px;
+}
+.vr-c-bg{background-color:#1d2e59;
+        width:100vw;
+        height:60vh;
+        background-size:cover;
+}
+ </style>
+ </head>
+  <body>
+     <div class='vr-c-bg p-3 mt-3 d-flex flex-column justify-content-center'> 
+     
+    <div class='container text-center'>
+        <div class='row'>
+            <div class='col-md-7 order-md-2'>
+           <div class='col-12 col-md-7 order-md-2 '>
+               <h2 style='color:white;'>Virtually Anything is Possible</h2>
+           </div>
+           <div class='col-12 d-md-none'>
+               <img class='c-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-set-img.png'>
+           </div>
+           <div class='col-12 col-md-7'>
+               <button class='btn btn-outline-light'>CONTACT US</button>
+           </div>
+           </div>
+           <div class='col-12 d-none d-md-inline col-md-5 order-md-1'>
+               <img class='c-img' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-set-img.png'>
+           </div>
+        </div>
+    </div>
+ 
+  </div>
+  </body>
+</html>
+
+
+
+TRENDING BLOCK:-
+==============
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-1-img.png
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-2-img.png
+
+
+<!DOCTYPE html>
+<html>
+  <head> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ <style>
+   .card-trending{background-color:white;
+}
+
+.card-trending-link{ font-size:10px;
+            color:blue;
+}
+.button-trending{width:100px;
+        height:40px;
+}
+
+ </style>
+  </head>
+  <body>
+     <h2 class='m-2 p-3'>Trending Blogs</h2>
+         <div class='container'>
+             <div class='row'>
+                
+                 <div class='col-12 col-md-6'>
+                
+                   <div class='card-trending shadow mb-3'>
+                   <img class='w-100' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-1-img.png'/>
+                  
+                   <div class='p-2'>
+                       <p>Amazon</p>
+                       <p>New Way to see the World.It is a simulated experience that can be completely different from the 
+                       real world.</p>
+                       <a herf='' class='card-trending-link'>READ MORE</a>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" fill="BLUE" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                      </svg>
+                   </div>
+                 </div> 
+                </div>
+               
+          
+                <div class='col-12 col-md-6'>
+                <div class='card-trending shadow'>
+                   <img  class='w-100' src='https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-trending-blogs-2-img.png'/>
+                   <div class='p-2'>
+                       <p>Advertising</p>
+                       <p>The best one for uou. Come experienxe the wonder of Google Earth in virtual reality.</p>
+                       <a herf='' class='card-trending-link'>READ MORE</a>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="10" height="16" fill="BLUE" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+                   </div>
+                 </div>
+                   <div  class='text-right p-2'>
+                   <button class='btn btn-primary button-trending m-2'>View All</button>
+                   </div>
+                </div>
+            </div>
+        </div>
+  </body>
+</html>
+
+VR website products section:-
+------------------------------
+
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-img.png
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-with-controllers-img.png
+
+
+<!DOCTYPE html>
+<html>
+  <head> 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+ <style>
+  .bg-container-product{background-image:url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-img.png');
+            height:70vh;
+          background-size:cover;
+          color:white;
+}
+.bg-container1-product{background-image:url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/vr-products-headset-with-controllers-img.png');
+            height:70vh;
+          background-size:cover;
+          color:white;
+}
+.card-product{background-color:transparent;
+        
+}
+ </style>
+  </head>
+  <body>
+      <h2 class=' pl-3 ml-md-3'>Products</h2>
+  <div class='container'>
+      <div class='row'>
+       <div class='col-12 col-md-6'>  
+     <div class='bg-container-product p-2 d-flex flex-column justify-content-end mb-2'>
+         <div class='m-2'>
+             <h2>VR Headset</h2>
+             <p>Rs 75,000</p>
+             <button class='btn btn-outline-light '>Buy Now</button>
+          </div> 
+          </div>
+     </div>
+     
+     <div class='col-12 col-md-6'>
+     <div class='bg-container1-product p-2 d-flex flex-column justify-content-end'>
+         <div class='m-2'>
+             <h2>VR Headset and Two Touch Controllers</h2>
+             <p>Rs 90,000</p>
+             <button class='btn btn-outline-light '>Buy Now</button>
+          </div> 
+     </div>
+     <div class='text-right'>
+         <button class='btn btn-primary m-2'>View All</button>
+     </div>
+     </div>
+    </div>
+</div>
+  </body>
+</html>

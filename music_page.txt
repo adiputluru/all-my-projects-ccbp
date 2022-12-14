@@ -1,0 +1,11 @@
+Music Home Page:
+
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-stars-bg.png
+
+
+Music Details Page:
+
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/clouds-img.png
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-clouds-img.png
+https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/sweet-sleep-img.png
